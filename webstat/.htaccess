@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/futurity.pro/webstat"
+AuthUserFile /home/razbakov/etc/815492.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
