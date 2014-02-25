@@ -83,7 +83,7 @@
 
             var $active = $('a[href="<?php echo $request ?>"]');
             $active.addClass('active');
-            if ($active.parent().parent().parent()[0].tagName != 'NAV')
+            //if ($active.parent().parent().parent()[0].tagName != 'NAV')
               $active.parent().parent().parent().find('a:eq(0)').addClass('active');
 
             $('.btn-buy').click(function(){

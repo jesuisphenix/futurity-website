@@ -18,10 +18,16 @@ Text Domain: futurity
  * 1.0 
  * -----------------------------------------------------------------------------
  */
+
  body {
     color: #341c1d;
 }
-
+.theme-content section:first-child article {
+    background: none;
+}
+.theme-content section:first-child article#contacts {
+     background: url(./i/line.png) no-repeat 0 30px;
+}
 #bg {
     position: fixed;
     top: 0;
